@@ -60,7 +60,7 @@ if response.status_code == 200:
 
     soup = BeautifulSoup(html_text, 'html.parser')
 
-    cordajes = soup.find_all('div', class_='b-img-t')
+    servicio = soup.find_all('div', class_='b-img-t')
 
     print(cordajes)
 
